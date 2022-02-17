@@ -1,5 +1,7 @@
 
 
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -91,3 +93,311 @@ body {
   text-align: center;
 }
 
+
+
+.header__logotext {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #fff;
+    float: left;
+    text-align: center;
+  }
+
+  .nav {
+    font-size: 20px;
+    margin-top: -70px;
+    margin-left: 900px;
+  }
+
+  .nav__link {
+    padding-top: -100px;
+    margin-top: -70px;
+    padding-right: 70px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s linear;
+  }
+
+  .nav__link:hover {
+    color: #cd6326;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    background: transparent;
+    border: 2px solid #cd6326;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s linear;
+  }
+
+  .but__donate {
+    margin-left: 160px;
+    margin-top: 49px;
+  }
+
+  .button:hover {
+    background-color: #cd6326;
+    cursor: pointer;
+  }
+
+  .button:active,
+  .button:focus {
+    outline: none;
+  }
+
+  .section {
+    height: 1180px;
+    padding: 80px 80px;
+    background-color: #cccccc;
+  }
+
+  .section__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .section__title2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+  }
+
+  .animals {
+    width: 30%;
+    float: left;
+  }
+
+  .deer {
+    background-image: url(./img/pic1.png);
+    height: 330px;
+    width: 270px;
+    margin-top: 86px;
+    margin-left: 70px;
+  }
+
+  .deer__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #f7f7f7;
+    padding-top: 250px;
+  }
+
+  .deer__text2 {
+    font-style: normal;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 27px;
+    color: #f7f7f7;
+  }
+
+  .squirrel {
+    background-image: url(./img/pic2.png);
+    height: 330px;
+    width: 270px;
+    margin-top: 86px;
+    margin-left: 30px;
+  }
+
+  .squirrel__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #f7f7f7;
+    padding-top: 250px;
+  }
+
+  .squirrel__text2 {
+    font-style: normal;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 27px;
+    color: #f7f7f7;
+  }
+
+  .bird {
+    background-image: url(./img/pic3.png);
+    height: 330px;
+    width: 270px;
+    margin-top: 86px;
+    margin-left: -10px;
+  }
+
+  .bird__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #f7f7f7;
+    padding-top: 250px;
+  }
+
+  .bird__text2 {
+    font-style: normal;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 27px;
+    color: #f7f7f7;
+  }
+
+  .animal {
+    float: left;
+  }
+
+  .left {
+    margin-top: 220px;
+    margin-left: 40px;
+  }
+
+  .left:hover,
+  .right:hover {
+    cursor: pointer;
+  }
+
+  .right {
+    margin-top: 220px;
+    margin-left: -30px;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .field__text {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    margin-top: 300px;
+  }
+
+  .field__field {
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 60px;
+  }
+
+  .button2 {
+    border: none;
+    position: absolute;
+    color: white;
+    background: #cd6326;
+    padding: 17px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .button2:hover {
+    background-color: #e39128;
+  }
+
+  .button2:active,
+  .button2:focus {
+    outline: none;
+  }
+
+  .button2:active {
+    background-color: #8f5613;
+    border: none;
+    outline: none;
+  }
+
+  .email {
+    border: 2px solid #616060;
+    background: transparent;
+    position: relative;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+
+  footer {
+    background-image: url(./img/Rectangleфон.jpg);
+    height: 300px;
+  }
+
+  .footer__logopic {
+    margin-top: 130px;
+    margin-left: 100px;
+    float: left;
+    text-align: center;
+  }
+
+  .footer__logotext {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-top: 90px;
+    margin-left: 20px;
+    color: #fff;
+    float: left;
+    text-align: center;
+  }
+
+  .nav__foot {
+    font-size: 20px;
+    padding-left: 470px;
+  }
+
+  .nav__foot__link {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding-top: -100px;
+    margin-top: -50px;
+    padding-right: 70px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s linear;
+  }
+
+  .nav__foot__link:hover {
+    color: #cd6326;
+  }
+
+  .nav__foot__pic {
+    padding-left: 1000px;
+  }
+
+  .foot__pic {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-top: -80px;
+    padding-right: 40px;
+  }
